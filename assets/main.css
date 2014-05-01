@@ -60,6 +60,10 @@ a{
   height: 100%;
 }
 
+.like-content{
+  margin-top: 64%;
+  text-align:center;
+}
 #gmap{
   z-index: 99;
 }
