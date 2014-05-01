@@ -53,7 +53,7 @@ a{
 .salad-logo {
   background-image: url('salad bar logo.png');
   background-repeat: no-repeat;
-  background-size: contain 50%;
+  background-size: auto 50%;
   background-position: bottom;
   background-position-x: center;
   background-position-y: 10%;
