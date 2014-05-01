@@ -4,7 +4,7 @@ $(document).ready(function() {
 		      verticalCentered: true,
 		      navigation: true,
 		      continuousVertical: false,
-          slidesNavigation: true,
+          slidesNavigation: false,
           slidesNavPosition: 'bottom', 
 	      });
         $('.scene').parallax();
@@ -14,7 +14,7 @@ $(document).ready(function() {
         }).trigger("resize");
        
  }
- init();
+ 
   var feed = new Instafeed({
       get: 'tagged',
       tagName: 'thesaladbarmy',
