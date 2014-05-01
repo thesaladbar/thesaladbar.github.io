@@ -18,7 +18,7 @@ $(document).ready(function() {
       tagName: 'thesaladbarmy',
       clientId: '107c09c4ca70419c9e37c6844c75bafc',
       template: '<div class="slide"><a class="th radius" href="{{link}}"><img class="instagram" src="{{image}}" /></a></div>',
-      success: init,
+      after: init,
       error: init,
 		  resolution: 'low_resolution'
   });
