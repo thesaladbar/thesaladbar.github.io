@@ -1,4 +1,4 @@
-$('body').hide();
+
 $(document).ready(function() {
  function init(){
 	      $('#fullpage').fullpage({
@@ -13,7 +13,7 @@ $(document).ready(function() {
           $("#gmap").width($(this).width());
           $("#gmap").height($(this).height());
         }).trigger("resize");
-        $('body').show();
+       
  }
   var feed = new Instafeed({
       get: 'tagged',
