@@ -8,7 +8,9 @@ $(document).ready(function() {
           slidesNavPosition: 'bottom', 
           noWrap: true,
 	      });
-        $('.scene').parallax();
+        if( ! /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+          $('.scene').parallax();
+        }
         $(document).resize(function(){
           $("#gmap").width($(this).width());
           $("#gmap").height($(this).height());
