@@ -6,6 +6,7 @@ $(document).ready(function() {
 		      continuousVertical: false,
           slidesNavigation: false,
           slidesNavPosition: 'bottom', 
+          noWrap: true,
 	      });
         $('.scene').parallax();
         $(document).resize(function(){
