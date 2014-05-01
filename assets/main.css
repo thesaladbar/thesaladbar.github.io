@@ -61,6 +61,11 @@ a{
   background-position-y: 10%;
   height: 100%;
 }
+@media screen and (device-aspect-ratio: 40/71) {
+.salad-logo{
+  background-size: 80% auto;
+}
+}
 
 .like-content{
   margin-top: 54%;
