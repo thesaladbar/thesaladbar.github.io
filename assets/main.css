@@ -50,6 +50,12 @@ a{
   -moz-backface-visibility: hidden;
   backface-visibility: hidden;
 }
+
+.th{
+  max-height: 90%;
+  max-width: 90%;
+}
+
 .background {
   background-image: url('High Energy Superman.jpg');
   background-size: 100%;
