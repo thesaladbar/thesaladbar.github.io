@@ -22,7 +22,7 @@ $(document).ready(function() {
       template: '<div class="slide"><a class="th radius" href="{{link}}"><img class="instagram" src="{{image}}" /></a></div>',
       after: function(){init();},
       error: function(){init();},
-		  resolution: 'standard_resolution'
+		  resolution: 'low_resolution'
   });
   feed.run();
 
