@@ -1,4 +1,3 @@
-
 $(document).ready(function() {
  function init(){
 	      $('#fullpage').fullpage({
@@ -15,6 +14,7 @@ $(document).ready(function() {
         }).trigger("resize");
        
  }
+ init();
   var feed = new Instafeed({
       get: 'tagged',
       tagName: 'thesaladbarmy',
