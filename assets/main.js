@@ -11,6 +11,7 @@ $(document).ready(function() {
         $(document).resize(function(){
           $("#gmap").width($(this).width());
           $("#gmap").height($(this).height());
+          $('#fullpage').doneResizing();
         }).trigger("resize");
        
  }
