@@ -53,7 +53,7 @@ a{
 .salad-logo {
   background-image: url('salad bar logo.png');
   background-repeat: no-repeat;
-  background-size: auto 60%;
+  background-size: contain 50%;
   background-position: bottom;
   background-position-x: center;
   background-position-y: 10%;
@@ -61,7 +61,7 @@ a{
 }
 
 .like-content{
-  margin-top: 64%;
+  margin-top: 54%;
   text-align:center;
 }
 #gmap{
