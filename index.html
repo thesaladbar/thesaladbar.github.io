@@ -1,9 +1,40 @@
 <html>
-<head>
+  <head>
   <title>The Salad Bar</title>
-</head>
-<body>
- available soon...
-</body>
+  <script type="text/javascript" src="assets/jquery-2.1.0.min.js"></script>
+  <script type="text/javascript" src="assets/jquery.fullPage.min.js"></script>
+  <script type="text/javascript" src="assets/request_animation_frame.js"></script>
+  <script type="text/javascript" src="assets/jquery-ui-1.10.4.min.js"></script>
+  <script type="text/javascript" src="assets/main.js"></script>
+  <link  rel="stylesheet" type="text/css" href="assets/main.css" />
+  <link  rel="stylesheet" type="text/css" href="assets/jquery.fullPage.css" />
+  </head>
+  <body>
+  <div id="fullpage">
+	  <div class="section " id="fp-1">
+        <ul id="scene" class="scene">
+          <li class="layer" data-depth="0.2"><div class="background"></div></li>
+          <li class="layer" data-depth="0.01">
+            <div class="salad-logo">
+            </div>
+          </li>
+          <li class="layer" data-depth="0">
+            <div class="row first-page full-height">
+              <div class="large-12 column show-for-medium-up full-height">
+            </div>  
+          </li>
+	  </div>
+	  <div class="section" id="menu" style="text-align:center">
+	    <a href="assets/SaladBarMenu.pdf">
+        <img src="assets/download.png" alt="download out menu" />
+	      <h1 style="color:2ecc71">Download Our Menu</h1>
+      </a>
+	  </div>
+	  <div class="section" id="maps">
+  	  <iframe style="width:100;%height:100%;display:block" id="gmap" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.my/maps/ms?gl=my&amp;ie=UTF8&amp;oe=UTF8&amp;msa=0&amp;msid=211666544767317025207.00049e05791aa57fa1460&amp;t=m&amp;iwloc=00049e057cc86a8c088e6&amp;ll=3.132958,101.622607&amp;spn=0,0&amp;output=embed"></iframe>
+  	  
+	  </div>
+   <script type="text/javascript" src="assets/jquery.parallax.js"></script>
+  </div>
+  </body>
 </html>
-
