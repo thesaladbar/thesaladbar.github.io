@@ -21,7 +21,9 @@ a{
   padding: 0;
   margin: 0;
 }
-
+.controlArrow.next {
+  margin-right: 50px;
+}
 #instafeed{
   background-color: #2ecc71;
   text-align:center
