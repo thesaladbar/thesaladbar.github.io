@@ -26,7 +26,7 @@ $(document).ready(function() {
       
       },
       error: function(){},
-		  resolution: 'low_resolution'
+		  resolution: 'standard_resolution'
   });
   function init(){
 	      $('#fullpage').fullpage({
