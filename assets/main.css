@@ -14,6 +14,11 @@ a{
   overflow: hidden;
 
 }
+
+#fullpage{
+  height: 100%;
+}
+
 .scene,
 .layer {
   display: block;
