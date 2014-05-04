@@ -54,6 +54,11 @@ a:hover{
 
 }
 
+img.instagram{
+ max-width: 95%;
+ max-height: 95%;
+}
+
 #instafeed{
   background-color: #8e44ad; 
   text-align:center

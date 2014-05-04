@@ -1,3 +1,4 @@
+  var mapScaleFactor = 1;
 $(document).ready(function() {
   var feed = new Instafeed({
       get: 'tagged',
@@ -40,10 +41,13 @@ $(document).ready(function() {
 	      });
         if( ! /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
           $('.scene').parallax();
+        }else{
+          mapScaleFactor = 0.8;
         }
         $(document).resize(function(){
-          $("#gmap").width($(this).width());
-          $("#gmap").height($(this).height());
+          $("#gmap").width($(this).width()*mapScaleFactor);
+          $("#gmap").height($(this).height()*mapScaleFactor);          
+          $("#gmap").css('display','inline-block')
         }).trigger("resize");
  }
  init(); 
