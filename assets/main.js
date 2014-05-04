@@ -1,4 +1,4 @@
-  var mapScaleFactor = 1;
+  var mapScaleFactor = 0.8;
 $(document).ready(function() {
   var feed = new Instafeed({
       get: 'tagged',
@@ -43,11 +43,13 @@ $(document).ready(function() {
           $('.scene').parallax();
         }else{
           mapScaleFactor = 0.8;
+          $("#gmap").parent().append('<br /><a target="_blank" href="https://goo.gl/maps/PZzkW">Show In Google Maps</a>');
         }
         $(document).resize(function(){
           $("#gmap").width($(this).width()*mapScaleFactor);
           $("#gmap").height($(this).height()*mapScaleFactor);          
-          $("#gmap").css('display','inline-block')
+          $("#gmap").css('display','inline-block');
+
         }).trigger("resize");
  }
  init(); 
